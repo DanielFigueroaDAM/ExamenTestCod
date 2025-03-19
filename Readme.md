@@ -31,7 +31,7 @@ Formato del `Readme` *1 punto*
 
 ### Qué cambiaría si no hubiera validación de longitud:
 **Agregaría estos casos a los tests:**
-    -Usando el AsserFalse para verificar que el metodo retorne false en estos casos.
+    -Usando el AsserFalse para verificar que el metodo retorne false en estos casos. (en la funcion de comprobarDNI)
    ```java
    @CsvSource({
        "1234567, Z",   // 7 dígitos → Inválido
